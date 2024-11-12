@@ -1,8 +1,24 @@
-# React + Vite
+# my react vite template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+this template is a minimal bare bones app that just displays static
+content, so doesn't need react at all.
 
-Currently, two official plugins are available:
+## clone this with:
+```
+git clone https://github.com/ozzloy/my-app-academy-react-vite-template
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+or if you want to use tiged
+```sh
+npx tiged ozzloy/my-react-vite-template#main <new-project-name>
+```
+
+## run
+```sh
+cd $new_project_name
+npm install
+npm run dev
+```
+
+## make it your own
+change the `title` in __index.html__, and `name` in __package.json__.
